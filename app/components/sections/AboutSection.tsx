@@ -5,8 +5,8 @@ import { GithubIcon, LinkedinIcon } from '../icons'
 function AboutSection() {
     return (
         <section className='w-[100vw] mb-[100px] flex  justify-center mt-[100px]'>
-            <div className='max-w-[1570px] w-[100%]'>
-                <div className='text-[72px] text-white font-bold'><span className='text-green'>.</span>about</div>
+            <div className='max-w-[1570px] tablet:w-[95%] mobile:w-[90%]'>
+                <div className='text-[72px] text-white font-bold '><span className='text-green'>.</span>about</div>
                 <div className='flex gap-[30px] items-center'>
                     <div>
                         <Image
@@ -20,15 +20,15 @@ function AboutSection() {
                     <GithubIcon size={36} />
                     <LinkedinIcon size={36} />
                 </div>
-                <div className='max-w-[1570px] w-[100vw] flex items-center justify-between'>
-                    <div className='text-white max-w-[740px] mt-[60px] text-[30px]'>
-                        Hey<span><i>! </i></span> {"i'm"}<em>Sanchit</em>, 22 year old from <i>India</i>.Crio Graduate and Full Stack Developer specializing in the MERN stack. Passionate about creating robust and scalable web applications.
+                <div className='max-w-[1570px] w-[100%] flex items-center justify-between mobile:flex-col tablet:flex-row mobile:gap-[30px] tablet:gap-[10px]'>
+                    <div className='text-white max-w-[740px] mt-[60px] mobile:text-[16px] tablet:text-[30px] mobile:text-center tablet:text-left'>
+                        Hey<span><i>! </i></span> {"i'm"}<em> Sanchit</em>, 22 year old from <i>India</i>. Crio Graduate and Full Stack Developer specializing in the MERN stack. Passionate about creating robust and scalable web applications.
                     </div>
-                    <div className='text-white max-w-[740px] text-[30px]'>
+                    <div className='text-white max-w-[740px] mobile:text-[16px] tablet:text-[30px]  mobile:text-center tablet:text-left'>
                         Open to new opportunities to contribute technical expertise and deliver exceptional user experiences.
                     </div>
                 </div>
-                <div className='text-[34px] font-bold text-white mt-[50px]'>
+                <div className='tablet:text-[34px] mobile:text-[16px] mobile:text-center tablet:text-left font-bold text-white mt-[50px]  w-[100%]'>
                     <i>Degree: <u className='ml-[10px]'>{"Bachelor's degree in CS"}</u></i>
                 </div>
             </div>

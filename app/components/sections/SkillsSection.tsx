@@ -7,9 +7,9 @@ import { GenericSkillIcon } from '../icons'
 function SkillsSection() {
     return (
         <section className='w-[100vw] flex  justify-center mt-[100px]'>
-            <div className='max-w-[1570px] w-[100%]'>
+            <div className='max-w-[1570px] tablet:w-[95%] mobile:w-[90%]'>
                 <div className='text-[72px] text-white font-bold'><span className='text-green'>.</span>skills</div>
-                <div className='mt-[30px] flex flex-wrap gap-[30px] max-w-[900px]'>
+                <div className='mt-[30px] flex flex-wrap mobile:gap-[15px] tablet:gap-[30px] max-w-[900px]'>
                     {config.skills.map((skill) => {
                         return <SkillCapsule key={skill}>{skill}</SkillCapsule>
                     })}

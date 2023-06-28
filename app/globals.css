@@ -6,6 +6,10 @@
     user-select: none;
 }
 
+.mainButtonText {
+    font-size: min(3vw, 36px);
+}
+
 .mainText {
     font-size: min(10vw, 128px);
     line-height: min(8vw);

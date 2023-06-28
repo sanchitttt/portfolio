@@ -92,7 +92,7 @@ export function GenericSkillIcon({
     src: string
 }) {
     return <Image
-        className='mx-[50px] grayscale hover:grayscale-0 transition'
+        className= 'mobile:mx-[25px] tablet:mx-[50px] grayscale hover:grayscale-0 transition'
         src={src}
         width={72}
         height={72}
