@@ -1,5 +1,6 @@
 import './globals.css'
 import { Poppins } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 const poppin = Poppins({
   subsets: ['latin'], weight:
@@ -19,6 +20,7 @@ export const metadata = {
 }
 
 export default function RootLayout({
+
   children,
 }: {
   children: React.ReactNode
@@ -26,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppin.className + ' bg-[#141414]'}>{children}</body>
+      <Analytics />
     </html>
   )
 }
