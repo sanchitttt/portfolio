@@ -14,7 +14,7 @@ function AboutSection() {
                             width={122}
                             height={122}
                             alt='my picture'
-                            className='grayscale rounded-full mr-[30px] mt-[30px]'
+                            className='grayscale hover:grayscale-0 transition rounded-full mr-[30px] mt-[30px]'
                         />
                     </div>
                     <GithubIcon size={36} />
@@ -22,14 +22,14 @@ function AboutSection() {
                 </div>
                 <div className='max-w-[1570px] w-[100vw] flex items-center justify-between'>
                     <div className='text-white max-w-[740px] mt-[60px] text-[30px]'>
-                        Hey<span><i>! </i></span> i'm <em>Sanchit</em>, 22 year old from <i>India</i>.Crio Graduate and Full Stack Developer specializing in the MERN stack. Passionate about creating robust and scalable web applications.
+                        Hey<span><i>! </i></span> {"i'm"}<em>Sanchit</em>, 22 year old from <i>India</i>.Crio Graduate and Full Stack Developer specializing in the MERN stack. Passionate about creating robust and scalable web applications.
                     </div>
                     <div className='text-white max-w-[740px] text-[30px]'>
                         Open to new opportunities to contribute technical expertise and deliver exceptional user experiences.
                     </div>
                 </div>
                 <div className='text-[34px] font-bold text-white mt-[50px]'>
-                    <i>Degree: <u className='ml-[10px]'>Bachelor's degree in CS</u></i>
+                    <i>Degree: <u className='ml-[10px]'>{"Bachelor's degree in CS"}</u></i>
                 </div>
             </div>
 
