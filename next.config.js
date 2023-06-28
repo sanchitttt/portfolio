@@ -4,7 +4,7 @@ const nextConfig = {
         return [
             {
                 source: '/(.*)',
-                destination: `https://www.sanchittewari.vercel.app/$1`,
+                destination: `https://www.sanchittewari.vercel.app`,
                 permanent: true,
             },
         ];
