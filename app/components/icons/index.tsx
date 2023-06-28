@@ -2,21 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function EmailIcon() {
-    return <Image
-        src='/email.svg'
-        width={30}
-        height={30}
-        alt='Email: sanchittewari222@gmail.com'
-    />
+    return <Link href='mailto:sanchittewari222@gmail.com'>
+        <Image
+            src='/email.svg'
+            width={30}
+            height={30}
+            alt='Email: sanchittewari222@gmail.com'
+        />
+    </Link>
 }
 
 export function PhoneIcon() {
-    return <Image
-        src='/phone.svg'
-        width={30}
-        height={30}
-        alt='Phone: 8376831238'
-    />
+    return <Link href='tel:837683128'>
+        <Image
+            src='/phone.svg'
+            width={30}
+            height={30}
+            alt='Phone: 8376831238'
+        />
+    </Link>
 }
 
 export function LinkedinIcon({ size = 30 }: { size?: number }) {
@@ -92,7 +96,7 @@ export function GenericSkillIcon({
     src: string
 }) {
     return <Image
-        className= 'mobile:mx-[25px] tablet:mx-[50px] grayscale hover:grayscale-0 transition'
+        className='mobile:mx-[25px] tablet:mx-[50px] grayscale hover:grayscale-0 transition'
         src={src}
         width={72}
         height={72}

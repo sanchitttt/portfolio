@@ -1,5 +1,6 @@
 const config = {
     speed: 150,
+    cvUrl: 'https://drive.google.com/file/d/1-XZAFRHI7IdpHF61Hso-HyfKIUjj7geG/view?usp=sharing',
     skills: [
         'React',
         'Next.js',
@@ -61,7 +62,7 @@ const config = {
         {
             src: '/qtrip.png',
             projectName: 'Tour Book Website',
-            skillsUsed: ['Vanilla JS', 'CSS', 'HTML', 'DOM Manipulation','Local Storage'],
+            skillsUsed: ['Vanilla JS', 'CSS', 'HTML', 'DOM Manipulation', 'Local Storage'],
             githubLink: '',
             deployedLink: 'https://qtrip-dynamic-sanchit.netlify.app'
         },

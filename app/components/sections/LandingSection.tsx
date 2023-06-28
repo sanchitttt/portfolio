@@ -1,6 +1,8 @@
 import React from 'react';
 import { ChevronTopRight, DownArrow, GithubIcon, LinkedinIcon } from '../icons';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+import config from '@/app/config';
 
 function LandingSection() {
     return (
@@ -12,17 +14,22 @@ function LandingSection() {
                     </div>
                     <div className='flex gap-[30px] items-center mt-[30px]'>
                         <button className='text-white border-[1px] uppercase rounded-full  flex items-center justify-center mainButtonText py-[10px] px-[20px] font-bold hover:border-green hover'>
-                            Contact us
+                            Contact me
                         </button>
-                        <div className='flex items-center gap-[20px]'>
-                            <i className='leftHover text-white font-bold uppercase  mainButtonText'
-                            >
-                                Download CV
-                            </i>
-                            <div className='w-[30px] h-[30px] flex items-center justify-center bg-green rounded-full'>
-                                <ChevronTopRight />
-                            </div>
-                        </div>
+                        <Link
+                            href={config.cvUrl}
+                            target="_blank"
+                        >
+                            <button className='flex items-center gap-[20px]'>
+                                <i className='leftHover text-white font-bold uppercase  mainButtonText'
+                                >
+                                    Download CV
+                                </i>
+                                <div className='w-[30px] h-[30px] flex items-center justify-center bg-green rounded-full'>
+                                    <ChevronTopRight />
+                                </div>
+                            </button>
+                        </Link>
                     </div>
 
                 </div>
