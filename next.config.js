@@ -1,14 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    async rewrites() {
-        return [
-            {
-                source: '/(.*)',
-                destination: `https://www.sanchittewari.vercel.app`,
-                permanent: true,
-            },
-        ];
-    },
-};
+const nextConfig = {}
 
 module.exports = nextConfig
