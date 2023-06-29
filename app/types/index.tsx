@@ -12,5 +12,6 @@ export interface CertificationCardType {
     src: string
     title: string
     details: string
-    href: string
+    href: string,
+    rowReverse?: boolean
 }
