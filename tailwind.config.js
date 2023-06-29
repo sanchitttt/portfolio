@@ -18,7 +18,8 @@ module.exports = {
       screens: {
         mobile: '0px',
         tablet: '512px',
-        desktop: '968px'
+        desktop: '968px',
+        largeDesktop: '1200px'
 
       }
     },

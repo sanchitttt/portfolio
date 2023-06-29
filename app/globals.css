@@ -57,6 +57,10 @@
     transform: scale(1, 1);
 }
 
+.rowReverse:nth-child(n) {
+    flex-direction: row-reverse;
+}
+
 
 @keyframes updown {
     0% {
