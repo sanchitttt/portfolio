@@ -24,7 +24,7 @@ export default function Home() {
       <ProjectsSection />
       {/* <MiniProjects /> */}
       <CertificationSection />
-      {/* <Footer /> */}
+      <Footer />
       <Analytics />
     </>
   )
