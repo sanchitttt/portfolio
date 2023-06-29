@@ -60,7 +60,7 @@ const config = {
             deployedLink: 'https://coincapclonefrontendassignment.netlify.app'
         },
         {
-            src: '/qkart.png',
+            src: '/qkart.jpg',
             projectName: 'E-commerce Shopping',
             skillsUsed: ['React', 'Material UI','MongoDB','Express','Notistack'],
             githubLink: 'https://github.com/sanchitttt/qkart-frontend',
