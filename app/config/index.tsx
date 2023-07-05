@@ -1,6 +1,6 @@
 const config = {
     speed: 150,
-    cvUrl: 'https://drive.google.com/file/d/1-XZAFRHI7IdpHF61Hso-HyfKIUjj7geG/view?usp=sharing',
+    cvUrl: 'https://drive.google.com/file/d/1UAZ0xoZAoSZ6KX7JvWMd_VMrOTCNB6Q5/view?usp=sharing',
     skills: [
         'React',
         'Next.js',
